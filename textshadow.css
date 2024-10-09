@@ -1,0 +1,19 @@
+h1 {
+  text-shadow: 3px 3px 5px yellow, -3px -3px 5px red;
+}
+.container {
+  background: linear-gradient(
+    90deg,
+    #70d6ff,
+    #ff70a6,
+    #ff9770,
+    #ffd670,
+    #f07167
+  );
+  animation: bg 5s linear infinite;
+}
+@keyframes bg {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
